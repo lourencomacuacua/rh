@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+            <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <title>Simple Sidebar - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light"><img src="https://th.bing.com/th/id/OIP.rwe5KHrVD8pMpxiH9Z3uvwHaF6?rs=1&pid=ImgDetMain" width="30" height="30" class="d-inline-block align-top" alt=""></div>
+                <br>
+                <div class="sidebar-heading border-bottom bg-light">Usuários</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/cadastroUsuario"><i class="fa-solid fa-plus"></i>  Cadastrar</li></a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/listarUsuarios"><i class="fa-solid fa-list"></i> Listar </li></a>
+
+                </div>
+                
+                <div class="sidebar-heading border-bottom bg-light">Departamentos</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/cadastroDepartamento"><i class="fa-solid fa-plus"></i>  Cadastrar</li></a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/listarDepartamento"><i class="fa-solid fa-list"></i> Listar </li></a>
+
+                </div>
+                
+                <div class="sidebar-heading border-bottom bg-light">Cargos</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/cadastroCargo"><i class="fa-solid fa-plus"></i>  Cadastrar</li></a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/listarCargo"><i class="fa-solid fa-list"></i> Listar </li></a>
+
+                </div>
+                
+                                <div class="sidebar-heading border-bottom bg-light">Funcionários</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/cadastroFuncionario"><i class="fa-solid fa-plus"></i>  Cadastrar</li></a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/listarFuncionario"><i class="fa-solid fa-list"></i> Listar </li></a>
+
+                </div>
+                
+                                <div class="sidebar-heading border-bottom bg-light">Vagas</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/cadastrarVaga"><i class="fa-solid fa-plus"></i>  Cadastrar</li></a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/listarVagass"><i class="fa-solid fa-list"></i> Listar </li></a>
+
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <button class="btn btn-primary" id="sidebarToggle"><i class="fa-solid fa-backward"></i> </button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Logout</a>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/logout">Logout</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="/login">Login</a>
+                                        
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+		<div class="container" style="align:center">
+            <div class="col-md-9">
+                <h1>Lora's RH</h1>
+                <h6>Painel Administrativo</h6>
+
+                <div class="row" >
+                	<div class="col-md">
+		                <div class="card" style="width: 230px;">
+						  <img class="card-img-top img-fluid " style="width: 230px; height: 180px;" src="https://th.bing.com/th/id/R.fceb7e9ace523ebbcbd7da4a9dfb69b8?rik=cLNp%2b0Hl%2biOXdQ&riu=http%3a%2f%2fbloginformaticamicrocamp.com.br%2fwp-content%2fuploads%2f2017%2f02%2finfo-capa.jpg&ehk=4CQlFN%2bg%2bjGNaAqUmcSB5GOqX1rYO1bQKmxnXJ0F2Lc%3d&risl=&pid=ImgRaw&r=0" alt="Tecnologia da informação">
+						  <div class="card-body">
+						    <h5 class="card-title">IT</h5>
+						    <p class="card-text">Teclonogia de Informação.</p>
+						  </div>
+						</div>
+                	</div>
+                	
+                	<div class="col-md" >
+		                <div class="card" style="width: 230px;">
+						  <img class="card-img-top img-fluid " style="width: 230px; height: 180px;" src="data:image/jpeg;base64,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" alt="Recursos Humanos">
+						  <div class="card-body">
+						    <h5 class="card-title">FN</h5>
+						    <p class="card-text">Financeiro.</p>
+						  </div>
+						</div>
+                	
+                	</div>
+                	
+                	<div class="col-md">
+		                <div class="card" style="width: 230px;">
+						  <img class="card-img-top img-fluid " style="width: 230px; height: 180px;" src="https://th.bing.com/th/id/OIP.bUiVZQb4kFq50c5Wb88dEAHaFM?rs=1&pid=ImgDetMain" alt="Marketing Digital">
+						  <div class="card-body">
+						    <h5 class="card-title">RH</h5>
+						    <p class="card-text">Recursos Humanos.</p>
+
+						  </div>
+						</div>
+                	
+                	</div>
+                
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+		
+		
+		
+		
+		</div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
